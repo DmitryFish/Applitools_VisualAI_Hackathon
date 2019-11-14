@@ -21,7 +21,7 @@ Test project for the Applitools Hackathon 2019.
 1. Clone the repo to your local machine.
 2. Open 'ApplitoolsHackathon' project in Intellij IDEA.
 3. In 'Project' section, navigate to 'Tests' package.
-('ApplitoolsHackathon/src test/java/com.rybalchenko.ApplitoolsHackathon/Tests)
+('ApplitoolsHackathon/src/test/java/com.rybalchenko.ApplitoolsHackathon/Tests)
 4. To run tests:
     - 'Traditional Tests'
         - First way: Right-click on *'TraditionalTests.class'* -> click *"Run 'TraditionalTests.class'"*,
