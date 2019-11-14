@@ -1,0 +1,7 @@
+com\rybalchenko\ApplitoolsHackathon\Applitools\Applitools.class
+com\rybalchenko\ApplitoolsHackathon\Pages\LoginPage.class
+com\rybalchenko\ApplitoolsHackathon\Tests\TraditionalTests.class
+com\rybalchenko\ApplitoolsHackathon\Pages\HomePage.class
+com\rybalchenko\ApplitoolsHackathon\BaseTests\BaseTests.class
+com\rybalchenko\ApplitoolsHackathon\Tests\VisualAITests.class
+com\rybalchenko\ApplitoolsHackathon\Helpers\BrowsersHelper.class
