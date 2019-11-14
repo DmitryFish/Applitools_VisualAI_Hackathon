@@ -1,8 +1,8 @@
-###Applitools Hackathon - Java Tests
+#Applitools Hackathon - Java Tests
 
 Test project for the Applitools Hackathon 2019.
 
-####- Getting Started
+## Getting Started
 1. **Download and Install Java.**
     - Where to download?
         - https://www.oracle.com/technetwork/java/javase/downloads/index.html
@@ -17,7 +17,7 @@ Test project for the Applitools Hackathon 2019.
         - Follow all steps suggested by the wizard.
 
 
-####- Running Tests
+## Running Tests
 1. Clone the repo to your local machine.
 2. Open 'ApplitoolsHackathon' project in Intellij IDEA.
 3. In 'Project' section, navigate to 'Tests' package.
@@ -31,10 +31,16 @@ Test project for the Applitools Hackathon 2019.
         - First way: Right-click on *'VisualAITests.class'* -> click *"Run 'VisualAITests.class'"*,
         - Second way: Select *'VisualAITests.class'* -> click *'Ctrl + Shift + F10'*;
 
-####- Author and Acknowledgments
-######Author: 
+## Built With
+
+* *Applitools* - [Applitools](http://www.dropwizard.io/1.0.2/docs/)
+* *Maven* - [Maven](https://maven.apache.org/)
+* *Selenide* - [Selenide](https://selenide.org/)
+
+## Author and Acknowledgments
+###Author: 
 * **Rybalchenko Dmitry** - *Applitools_VisualAI_Hackathon* - [Repository](https://github.com/DmitryFish/Applitools_VisualAI_Hackathon)
 
-######Acknowledgments:
+###Acknowledgments:
 * I want to say a big thank you to **Daniel Sanchez** for convincing me to take part in this hackathon.
 * And I want to say thanks to the whole **Applitools** team for this wonderful hackathon.
