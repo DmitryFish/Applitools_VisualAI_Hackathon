@@ -13,13 +13,13 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Condition.visible;
 
-public class VisualAITests extends BaseTests{
+class VisualAITests extends BaseTests{
 
-    public static BatchInfo batch = new BatchInfo("Visual tests.");
-    public Eyes eyes;
+    private static BatchInfo batch = new BatchInfo("Visual tests.");
+    private Eyes eyes;
 
     @BeforeEach
-    public void setupNew(){
+    void setupNew(){
         EyesRunner runner = new ClassicRunner();
         eyes = new Eyes(runner);
         eyes.setApiKey("gWS5eeXv4nckowxiVTT7w7eT42yhYDeT99qN7wCxKG9Y110");
@@ -27,13 +27,13 @@ public class VisualAITests extends BaseTests{
     }
 
     @AfterEach
-    public void close(){
+    void close(){
         eyes.closeAsync();
         eyes.abortIfNotClosed();
     }
 
     @Test
-    public void LoginPageUiElementsTest() throws InterruptedException {
+    void LoginPageUiElementsTest() throws InterruptedException {
         eyes.open(driver, "ApplitoolsHackathon2019", "Login Page Ui Elements Test");
 
         open(lp.loginPage);
@@ -51,7 +51,7 @@ public class VisualAITests extends BaseTests{
     }
 
     @Test
-    public void DataDrivenTest(){
+    void DataDrivenTest(){
         eyes.open(driver, "ApplitoolsHackathon2019", "Data-Driven Test");
         open(lp.loginPage);
 
